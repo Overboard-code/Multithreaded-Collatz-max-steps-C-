@@ -3,7 +3,7 @@
 #include <thread>
 #include <locale> // for number commas
 #include <cstdlib>   // Required for strtoll
-#include <algorithm> // For max
+
 // g++ -O4 -o testo collatz_omp.cpp  
 // ./testo 10000000
 // Starting Collatz calculations from 1 up to 10,000,000 with 8 threads.
