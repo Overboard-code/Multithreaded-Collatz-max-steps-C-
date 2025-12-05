@@ -1,5 +1,6 @@
-This code will fing the longext Collatz sequence below the command line argument or 1,000,000as a default.  
+### This code will fing the longext Collatz sequence below the command line argument or 1,000,000as a default.  
 
+```text
 $g++ -o collatz2 -O4 collatz_omp.cpp
 $collatz2
 You can also use a number as an argument. Defaulting to 1,000,000
@@ -31,3 +32,4 @@ Done. 83,334 to 166,666 was 156,159 steps:382
 
 All Done. Longest chain below 1,000,000 was 837,799 steps:524
 Duration : 0:0:0.31
+```
