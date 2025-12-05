@@ -30,7 +30,7 @@ Starting Collatz calculations from 1 up to 1,000,000,000 with 12 threads.
 [2025-12-05 10:05:54: TH-13] Done. 916,666,664 to 1,000,000,000 was 954,843,751 steps:971
 
 All Done. Longest chain below 1,000,000,000 was 670,617,279 steps:986
-Duration : 0:0:8.8598
+Duration : 0:0:4.4683
 
 $collatz2
 You can also use a number as an argument. Defaulting to 1,000,000
