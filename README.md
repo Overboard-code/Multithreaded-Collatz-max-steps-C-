@@ -1,5 +1,5 @@
 ### This code will fing the longext Collatz sequence below the command line argument or 1,000,000as a default.  
-#### to 1 billion took about 8 seconds on my old i7 
+#### to 1 billion took about 9 seconds on my old i7 
 ```text
 collatz2 1000000000
 Starting Collatz calculations from 1 up to 1,000,000,000 with 12 threads.
