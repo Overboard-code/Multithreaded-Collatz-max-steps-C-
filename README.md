@@ -1,5 +1,5 @@
 ### This code will fing the longext Collatz sequence below the command line argument or 1,000,000 as a default.  
-#### to 1 billion took about 9 seconds on my old i7 
+#### to 1 billion took about 5 seconds on my old i7 
 ```text
 $g++ -o collatz2 -O4 collatz_omp.cpp
 $collatz2 1000000000
