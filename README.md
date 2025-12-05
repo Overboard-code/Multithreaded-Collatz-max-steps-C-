@@ -1,4 +1,4 @@
-### This code will fing the longext Collatz sequence below the command line argument or 1,000,000as a default.  
+### This code will fing the longext Collatz sequence below the command line argument or 1,000,000 as a default.  
 #### to 1 billion took about 9 seconds on my old i7 
 ```text
 collatz2 1000000000
