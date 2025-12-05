@@ -1,7 +1,8 @@
 ### This code will fing the longext Collatz sequence below the command line argument or 1,000,000 as a default.  
 #### to 1 billion took about 9 seconds on my old i7 
 ```text
-collatz2 1000000000
+$g++ -o collatz2 -O4 collatz_omp.cpp
+$collatz2 1000000000
 Starting Collatz calculations from 1 up to 1,000,000,000 with 12 threads.
 [[2025-12-05 10:05:46: TH-4] Started Thread for 166,666,667 to 249,999,999
 [2025-12-05 10:05:46: TH-12] Started Thread for 833,333,331 to 916,666,663
@@ -31,7 +32,6 @@ Starting Collatz calculations from 1 up to 1,000,000,000 with 12 threads.
 All Done. Longest chain below 1,000,000,000 was 670,617,279 steps:986
 Duration : 0:0:8.8598
 
-$g++ -o collatz2 -O4 collatz_omp.cpp
 $collatz2
 You can also use a number as an argument. Defaulting to 1,000,000
 Starting Collatz calculations from 1 up to 1,000,000 with 12 threads.
